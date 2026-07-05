@@ -108,9 +108,9 @@ proofs that didn't make it.
 │   ├── prior-art.md           # other approaches + how this differs
 │   └── lessons-learned.md     # the journey, dated
 ├── gallery/
-│   ├── hero/                  # README images
-│   ├── <piece-name>/           # source, proof, masks, process photos, final
-│   └── failures/               # what didn't work, and why
+│   ├── index/                 # thumbnails of all images
+│   ├── <piece-name>/          # source, proof, masks, process photos, final
+│   └── failures/              # what didn't work, and why
 ├── LICENSE                    # code license (MIT)
 ├── LICENSE-ART.md             # separate license for images/art
 └── CONTRIBUTING.md
