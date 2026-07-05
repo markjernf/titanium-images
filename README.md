@@ -1,0 +1,156 @@
+<!--
+  DRAFT README — structure/layout focused. Replace bracketed [placeholder] text
+  and swap in real images under /gallery/hero/. Sections marked (OPTIONAL) can
+  be cut if they end up redundant with docs/ pages.
+-->
+
+<div align="center">
+
+# [Project / Series Name]
+### Photographic mosaics, anodized onto titanium — one color at a time
+
+[One-line pitch, e.g. "Full-color, photorealistic images at 508 DPI, built entirely
+through repeated anodize → laser-ablate → re-anodize cycles on Grade-2 titanium."]
+
+[![Etsy](https://img.shields.io/badge/shop-Etsy-orange)](#) 
+[![License: MIT](https://img.shields.io/badge/code-MIT-blue)](#license) 
+[![Discussions](https://img.shields.io/badge/community-Discussions-brightgreen)](#)
+
+</div>
+
+---
+
+## Gallery preview
+
+<table>
+  <tr>
+    <td width="33%">
+      <img src="gallery/hero/hero-1-placeholder.jpg" alt="[Piece 1 name] — finished piece" width="100%">
+      <p align="center"><sub><b>[Piece 1 name]</b><br>[one-line note, e.g. "9-color, dinosaur-against-sky"]</sub></p>
+    </td>
+    <td width="33%">
+      <img src="gallery/hero/hero-2-placeholder.jpg" alt="[Piece 2 name] — macro shot of halftone dots" width="100%">
+      <p align="center"><sub><b>[Piece 2 name] — macro detail</b><br>[note, e.g. "50µm dot halftone, close-up"]</sub></p>
+    </td>
+    <td width="33%">
+      <img src="gallery/hero/hero-3-placeholder.jpg" alt="[Piece 3 name] — in-progress anodize bath" width="100%">
+      <p align="center"><sub><b>In progress</b><br>[note, e.g. "mid-cycle: bath + laser bed"]</sub></p>
+    </td>
+  </tr>
+</table>
+
+<div align="center"><i>More in the <a href="gallery/">full gallery</a> — including the ones that didn't work.</i></div>
+
+---
+
+## What this is
+
+[2–4 sentences, plain English. Who you are, what the object is, why it's unusual.
+Example seed:]
+
+I make full-color, photorealistic images on titanium sheet by anodizing it,
+laser-ablating a mask of one color, re-anodizing at a lower voltage, and
+repeating — up to [9–10] times per piece. A Python pipeline
+(`ti_mosaic_separator.py`) turns a source photo into a stack of 1-bit masks,
+one per achievable color, that drive the laser.
+
+This isn't a metaphor for "handmade" — it's [N] separate trips to an
+electrolyte bath and [N] laser passes per piece, worked out over [X months] of
+trial, error, and instrumented testing.
+
+## How it works (short version)
+
+[3–6 step summary; link to docs/pipeline.md for the full pipeline and
+docs/process.md for the physical steps. Example seed:]
+
+1. Anodize the whole sheet to the highest-voltage color — this becomes the base.
+2. Decompose the source image into per-color masks (script does this).
+3. Laser-ablate the next color's mask; re-anodize at the next-lower voltage.
+4. Repeat, descending in voltage, until all colors are laid down.
+5. Final pass produces a photorealistic image built from [7–10] discrete anodized colors.
+
+> Full technical writeup → [`docs/pipeline.md`](docs/pipeline.md)
+> Full physical process (bath, laser settings, safety) → [`docs/process.md`](docs/process.md)
+
+## Why this is different
+
+[Short prior-art paragraph — you found ~4 other multicolor-anodizing approaches.
+Name them briefly, then state your specific claim precisely rather than "first
+ever." Example seed:]
+
+Other multicolor titanium anodizing approaches I've found: electrified-solution
+pen-plotting, dabbing solution by hand, mask-then-dunk-then-remask, and
+direct laser coloring. As far as I've been able to determine, combining
+**full RGB image decomposition into per-voltage ablation masks with repeated
+anodize/ablate cycling** to get photorealistic results at 508 DPI is
+undocumented elsewhere. See [`docs/prior-art.md`](docs/prior-art.md) for details
+and if you know of prior work I've missed, please open a
+[discussion](../../discussions) — genuinely want to know.
+
+## The struggle (it's not as clean as it looks)
+
+[This section directly answers the "looks machine-made" concern — keep it
+honest and specific, not just "it was hard." Example seed:]
+
+These look precise because they *are* precise — but precise took [months] of
+figuring out, one variable at a time: DPI/pixel-mapping bugs, a palette that
+looked right in preview and came out muddy on metal, shadow tuning that
+turned out to work backwards from instinct depending on the source image, and
+plenty of runs that just didn't work.
+
+See [`docs/lessons-learned.md`](docs/lessons-learned.md) for the dated,
+warts-and-all version, and [`gallery/failures/`](gallery/failures/) for the
+proofs that didn't make it.
+
+## Repo structure
+
+```
+.
+├── ti_mosaic_separator.py     # the decomposition pipeline
+├── docs/
+│   ├── process.md             # physical steps: bath, laser, safety
+│   ├── pipeline.md            # how the script works, parameters
+│   ├── palette.md             # voltage/color table + how it was derived
+│   ├── prior-art.md           # other approaches + how this differs
+│   └── lessons-learned.md     # the journey, dated
+├── gallery/
+│   ├── hero/                  # README images
+│   ├── <piece-name>/           # source, proof, masks, process photos, final
+│   └── failures/               # what didn't work, and why
+├── LICENSE                    # code license (MIT)
+├── LICENSE-ART.md             # separate license for images/art
+└── CONTRIBUTING.md
+```
+
+## Try it yourself
+
+[Minimal quickstart — keep short, link out for detail.]
+
+```bash
+python ti_mosaic_separator.py --input source.jpg --width-mm 94
+```
+
+Full usage, parameters, and palette calibration →
+[`docs/pipeline.md`](docs/pipeline.md)
+
+## Collaborate / get in touch
+
+[Invite line — you specifically want to find others doing this or adjacent
+work. Example seed:]
+
+If you're doing anything in this space — pen-plotter anodizing, mask-and-dunk,
+laser-direct color, or your own version of this — I'd love to hear about it
+and compare notes. Open a [discussion](../../discussions) or an issue.
+
+Finished pieces are available on [Etsy → \[shop link\]](#).
+[Optional: art-show / exhibit note, e.g. "Currently showing at \[venue\]."]
+
+## License
+
+- **Code** (`ti_mosaic_separator.py` and related scripts): [MIT](LICENSE)
+- **Images and art**: see [`LICENSE-ART.md`](LICENSE-ART.md) — [placeholder,
+  e.g. CC BY-NC 4.0; not for commercial reproduction]
+
+---
+
+<div align="center"><sub>[optional footer, e.g. "Built and anodized by [name] — [location/workplace note if desired]"]</sub></div>
