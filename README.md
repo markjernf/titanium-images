@@ -45,29 +45,23 @@ through repeated anodize → laser-ablate → re-anodize cycles on Grade-2 titan
 
 ## What this is
 
-[2–4 sentences, plain English. Who you are, what the object is, why it's unusual.
-Example seed:]
-
-I make full-color, photorealistic images on titanium sheet by anodizing it,
+I am an engineer and woodworker who now makes full-color, photorealistic images on titanium sheets by anodizing,
 laser-ablating a mask of one color, re-anodizing at a lower voltage, and
-repeating — up to [9–10] times per piece. A Python pipeline
+repeating — up to nine times per piece. A Python script
 (`ti_mosaic_separator.py`) turns a source photo into a stack of 1-bit masks,
-one per achievable color, that drive the laser.
-
-This isn't a metaphor for "handmade" — it's [N] separate trips to an
-electrolyte bath and [N] laser passes per piece, worked out over [X months] of
-trial, error, and instrumented testing.
+one per anodized color, that drive the laser.  These pieces may look like they were produced by a machine, but they are genuinely handmade.  Each requires meticulous surface preparation, multiple laser passes, and multiple separate trips to the
+electrolyte bath in a sophisticated hand-built anodizing rig.    
 
 ## How it works (short version)
 
 [3–6 step summary; link to docs/pipeline.md for the full pipeline and
 docs/process.md for the physical steps. Example seed:]
 
-1. Anodize the whole sheet to the highest-voltage color — this becomes the base.
-2. Decompose the source image into per-color masks (script does this).
-3. Laser-ablate the next color's mask; re-anodize at the next-lower voltage.
-4. Repeat, descending in voltage, until all colors are laid down.
-5. Final pass produces a photorealistic image built from [7–10] discrete anodized colors.
+1. Decompose the source image into per-color masks (script does this).
+2. Anodize the whole sheet to the highest-voltage color — this becomes the base.
+4. Laser-ablate the next color's mask; re-anodize at the next-lower voltage to add that color.
+5. Repeat, descending in voltage, until all colors are laid down in a very precise 508 DPI mosaic.
+6. Final pass produces a photorealistic image built from three to nine discrete anodized colors.
 
 > Full technical writeup → [`docs/pipeline.md`](docs/pipeline.md)
 > Full physical process (bath, laser settings, safety) → [`docs/process.md`](docs/process.md)
