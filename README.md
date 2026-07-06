@@ -9,9 +9,7 @@
 
 # [Project / Series Name]
 ### Photographic mosaics, anodized onto titanium — one color at a time
-
-[One-line pitch, e.g. "Full-color, photorealistic images at 508 DPI, built entirely
-through repeated anodize → laser-ablate → re-anodize cycles on Grade-2 titanium."]
+Repeated anodize → laser-ablate → re-anodize cycles on titanium sheets can produce full color 508 DPI images.  The process involves image processing, metal preparation, and repeated "dunks" in a carefully-controlled trisodium phosphate solution with a direct current voltage between 15 and 105 volts.
 
 [![Etsy](https://img.shields.io/badge/shop-Etsy-orange)](#) 
 [![License: MIT](https://img.shields.io/badge/code-MIT-blue)](#license) 
@@ -41,11 +39,11 @@ through repeated anodize → laser-ablate → re-anodize cycles on Grade-2 titan
 
 <table>
   <tr>
-    <td width="200px">
+    <td width="33%">
       <video src="https://github.com/user-attachments/assets/4446cb57-93af-415b-9d44-26bceccfb9a3" controls width="100%"></video>  
     </td>
-    <td>
-      <b>Video to show how the anodized pieces shimmer.  It's very hard to record and show this on the screen, and the shimmer is one of the most appealing aspects of the technique.</b>
+    <td width="33%">
+      <b>Video to show how the anodized pieces shimmer.  It's very hard to record and show this on the screen, and the shimmer is one of the most appealing aspects of the technique.</b><p>The way anodized titanium makes the appearance of colors is through interference of different wavelengths of light refracting and reflecting through the TiO2 layer created by the anodizing.  The voltage controls the thickness of the layer which in turns controls perceived color.  The shimmery effect is what makes the pieces magical for me.</p>
     </td>
   </tr>
   
@@ -60,23 +58,17 @@ through repeated anodize → laser-ablate → re-anodize cycles on Grade-2 titan
 I am an engineer and woodworker who now makes full-color, photorealistic images on titanium sheets by anodizing,
 laser-ablating a mask of one color, re-anodizing at a lower voltage, and
 repeating — up to nine times per piece. A Python script
-(`ti_mosaic_separator.py`) turns a source photo into a stack of 1-bit masks,
-one per anodized color, that drive the laser.  These pieces may look like they were produced by a machine, but they are genuinely handmade.  Each requires meticulous surface preparation, multiple laser passes, and multiple separate trips to the
-electrolyte bath in a sophisticated hand-built anodizing rig.    
+(`ti_mosaic_separator.py`) turns a source photo into a stack of 1-bit masks that when ablated and anodized in the proper order produce a color mosaic blending the colors into a color image.  These pieces may look like they were produced by a machine, but they are genuinely handmade.  Each requires meticulous surface preparation, multiple laser passes, and multiple separate trips to the TSP
+electrolyte bath in a sophisticated hand-built anodizing rig. It's a wonderful blend of digital preparation and analog rendering and depending on how many colors are involved can take several hours to complete.   
 
 ## How it works (short version)
-
-[3–6 step summary; link to docs/pipeline.md for the full pipeline and
-docs/process.md for the physical steps. Example seed:]
-
 1. Decompose the source image into per-color masks (script does this).
 2. Anodize the whole sheet to the highest-voltage color — this becomes the base.
 4. Laser-ablate the next color's mask; re-anodize at the next-lower voltage to add that color.
 5. Repeat, descending in voltage, until all colors are laid down in a very precise 508 DPI mosaic.
 6. Final pass produces a photorealistic image built from three to nine discrete anodized colors.
 
-> Full technical writeup → [`docs/pipeline.md`](docs/pipeline.md)
-> Full physical process (bath, laser settings, safety) → [`docs/process.md`](docs/process.md)
+For lots more details, please see the Wiki.
 
 ## Why this is different
 
