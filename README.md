@@ -30,7 +30,7 @@ through repeated anodize → laser-ablate → re-anodize cycles on Grade-2 titan
     </td>
     <td width="33%">
       <img src="gallery/alien/_index.png" alt="PNG ablation images for alien" width="100%">
-      <p align="center"><sub><b>[Derived from the original image by ti_mosaic_separator.py</b><br>[508 DPI preview]</sub></p>
+      <p align="center"><sub><b>Derived from the original image by ti_mosaic_separator.py</b><br>[508 DPI preview]</sub></p>
     </td>
     <td width="33%">
       <img src="gallery/alien/alien_in_progress.jpg" alt="In progress" width="100%">
