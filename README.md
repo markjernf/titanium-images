@@ -37,13 +37,14 @@ through repeated anodize → laser-ablate → re-anodize cycles on Grade-2 titan
       <p align="center"><sub><b>After teal, magenta, pink, and yellow (gold) anodize dunks</b><br>[ready for ablating silver]</sub></p>
     </td>
     <td width="25%">
-      <video src="gallery/alien/alien.MOV" controls="controls" style="max-width: 100%; max-height: 400px;" alt="Video showing shimmer">      
-      <p align="center"><sub><b>Video showing shimmer</b><br>[the effect is very cool and hard to record]</sub></p>
+      <img src="gallery/alien/alien_in_progress.jpg" alt="In progress" width="100%">
+      <p align="center"><sub><b>After teal, magenta, pink, and yellow (gold) anodize dunks</b><br>[ready for ablating silver]</sub></p>
     </td>
 </video>
   </tr>
 </table>
-
+<video src="gallery/alien/alien.MOV" controls="controls" style="max-width: 100%; max-height: 400px;" alt="Video showing shimmer">      
+      <p align="center"><sub><b>Video showing shimmer</b><br>[the effect is very cool and hard to record]</sub></p>
 <div align="center"><i>More in the <a href="gallery/README.md">full gallery</a> — including the ones that didn't work.</i></div>
 
 ---
