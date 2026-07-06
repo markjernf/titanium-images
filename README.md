@@ -24,18 +24,23 @@ through repeated anodize → laser-ablate → re-anodize cycles on Grade-2 titan
 
 <table>
   <tr>
-    <td width="33%">
+    <td width="25%">
       <img src="gallery/alien/alien.jpg" alt="alien — finished piece" width="100%">
       <p align="center"><sub><b>Finished piece (actual size 100 mm x 100 mm)</b><br>[AI generated to fit Ti palette, 508 DPI, image has artifacts from the camera]</sub></p>
     </td>
-    <td width="33%">
+    <td width="25%">
       <img src="gallery/alien/_index.png" alt="PNG ablation images for alien" width="100%">
       <p align="center"><sub><b>Derived from the original image by ti_mosaic_separator.py</b><br>[508 DPI preview]</sub></p>
     </td>
-    <td width="33%">
+    <td width="25%">
       <img src="gallery/alien/alien_in_progress.jpg" alt="In progress" width="100%">
       <p align="center"><sub><b>After teal, magenta, pink, and yellow (gold) anodize dunks</b><br>[ready for ablating silver]</sub></p>
     </td>
+    <td width="25%">
+      <video src="gallery/alien/alien.mov" controls="controls" style="max-width: 100%; max-height: 400px;" alt="Video showing shimmer">      
+      <p align="center"><sub><b>Video showing shimmer</b><br>[the effect is very cool and hard to record]</sub></p>
+    </td>
+</video>
   </tr>
 </table>
 
