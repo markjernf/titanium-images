@@ -45,7 +45,7 @@ through repeated anodize → laser-ablate → re-anodize cycles on Grade-2 titan
 </table>
 
 
-<video src="https://github.com/user-attachments/assets/4446cb57-93af-415b-9d44-26bceccfb9a3" controls style="width: 100px; max-width: 100%;"></video>
+<video src="https://github.com/user-attachments/assets/4446cb57-93af-415b-9d44-26bceccfb9a3" controls width="100" height="auto"></video>
 <p><sub><b>Video showing shimmer</b><br>[the effect is very cool and hard to show on the screen]</sub></p>
 
 
