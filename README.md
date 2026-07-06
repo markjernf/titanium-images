@@ -35,9 +35,7 @@ Repeated anodize → laser-ablate → re-anodize cycles on titanium sheets can p
       <img src="gallery/alien/alien_in_progress.jpg" alt="In progress" width="100%">
       <p align="center"><sub><b>After teal, magenta, pink, and yellow (gold) anodize dunks</b><br>[ready for ablating silver]</sub></p>
     </td>
-</table>
-
-<table>
+  </tr>
   <tr>
     <td width="33%">
       <video src="https://github.com/user-attachments/assets/4446cb57-93af-415b-9d44-26bceccfb9a3" controls width="100%"></video>  
@@ -46,7 +44,6 @@ Repeated anodize → laser-ablate → re-anodize cycles on titanium sheets can p
       <b>Video to show how the anodized pieces shimmer.  It's very hard to record and show this on the screen, and the shimmer is one of the most appealing aspects of the technique.</b><p>The way anodized titanium makes the appearance of colors is through interference of different wavelengths of light refracting and reflecting through the TiO2 layer created by the anodizing.  The voltage controls the thickness of the layer which in turns controls perceived color.  The shimmery effect is what makes the pieces magical for me.</p>
     </td>
   </tr>
-  
 </table>
 <video src="https://github.com/user-attachments/assets/4446cb57-93af-415b-9d44-26bceccfb9a3" controls width="100" height="auto"></video>
 <p><sub><b>Video showing shimmer</b><br>[the effect is very cool and hard to record and show on the screen]</sub></p>
