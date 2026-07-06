@@ -33,8 +33,8 @@ through repeated anodize → laser-ablate → re-anodize cycles on Grade-2 titan
       <p align="center"><sub><b>[Derived from the original image by ti_mosaic_separator.py</b><br>[508 DPI preview]</sub></p>
     </td>
     <td width="33%">
-      <img src="gallery/hero/hero-3-placeholder.jpg" alt="[Piece 3 name] — in-progress anodize bath" width="100%">
-      <p align="center"><sub><b>In progress</b><br>[note, e.g. "mid-cycle: bath + laser bed"]</sub></p>
+      <img src="gallery/alien/alien_in_progress.jpg" alt="In progress" width="100%">
+      <p align="center"><sub><b>After teal, magenta, pink, and yellow (gold) anodize dunks</b><br>[ready for ablating silver]</sub></p>
     </td>
   </tr>
 </table>
