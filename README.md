@@ -25,7 +25,7 @@ Repeated anodize → laser-ablate → re-anodize cycles on titanium sheets can p
   <tr>
     <td width="33%">
       <img src="gallery/alien/alien.jpg" alt="alien — finished piece" width="100%">
-      <p align="center"><sub><b>Finished piece (actual size 100 mm x 100 mm)</b><br>[AI generated to fit Ti palette, 508 DPI, image has artifacts from the camera]</sub></p>
+      <p align="center"><sub><b>Finished piece (actual size 100 mm x 100 mm)</b><br>[AI generated to fit Ti palette, 508 DPI]</sub></p>
     </td>
     <td width="33%">
       <img src="gallery/alien/_index.png" alt="PNG ablation images for alien" width="100%">
@@ -42,6 +42,10 @@ Repeated anodize → laser-ablate → re-anodize cycles on titanium sheets can p
     </td>
     <td width="33%">
       <b>Video to show how the anodized pieces shimmer.  It's very hard to record and show this on the screen, and the shimmer is one of the most appealing aspects of the technique.</b><p>The way anodized titanium makes the appearance of colors is through interference of different wavelengths of light refracting and reflecting through the TiO2 layer created by the anodizing.  The voltage controls the thickness of the layer which in turns controls perceived color.  The shimmery effect is what makes the pieces magical for me.</p>
+    </td>
+    <td width="33%">
+      <img src="gallery/woman_and_dogs/woman_and_dogs.jpg" alt="photo - finished piece" width="100%">
+      <p align="center"><sub><b>Finished piece (actual size 100 mm x 100 mm)</b><br>[Photo with colors adjusted by AI to fit colors available anodizing Titanium, 508 DPI]</sub></p>
     </td>
   </tr>
 </table>
