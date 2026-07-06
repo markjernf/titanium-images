@@ -42,7 +42,10 @@ through repeated anodize → laser-ablate → re-anodize cycles on Grade-2 titan
 <table>
   <tr>
     <td width="200px">
-      <video src="https://github.com/user-attachments/assets/4446cb57-93af-415b-9d44-26bceccfb9a3" controls width="100%"></video>
+      <video src="https://github.com/user-attachments/assets/4446cb57-93af-415b-9d44-26bceccfb9a3" controls width="100%"></video>  
+    </td>
+    <td>
+      <b>Video to show how the anodized pieces shimmer.  It's very hard to record and show this on the screen, and the shimmer is one of the most appealing aspects of the technique.</b>
     </td>
   </tr>
   
