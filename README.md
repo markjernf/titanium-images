@@ -25,16 +25,16 @@ through repeated anodize → laser-ablate → re-anodize cycles on Grade-2 titan
 <table>
   <tr>
     <td width="33%">
-      <img src="gallery/hero/hero-1-placeholder.jpg" alt="[Piece 1 name] — finished piece" width="100%">
-      <p align="center"><sub><b>[Piece 1 name]</b><br>[one-line note, e.g. "9-color, dinosaur-against-sky"]</sub></p>
+      <img src="gallery/alien/alien.jpg" alt="alien — finished piece" width="100%">
+      <p align="center"><sub><b>alien</b><br>[AI generated to fit Ti palette]</sub></p>
     </td>
     <td width="33%">
-      <img src="gallery/hero/hero-2-placeholder.jpg" alt="[Piece 2 name] — macro shot of halftone dots" width="100%">
-      <p align="center"><sub><b>[Piece 2 name] — macro detail</b><br>[note, e.g. "50µm dot halftone, close-up"]</sub></p>
+      <img src="gallery/alien/_index.png" alt="PNG ablation images for alien" width="100%">
+      <p align="center"><sub><b>Derived from the original image by ti_mosaic_separator.py</b><br>[508 DPI preview]</sub></p>
     </td>
     <td width="33%">
-      <img src="gallery/hero/hero-3-placeholder.jpg" alt="[Piece 3 name] — in-progress anodize bath" width="100%">
-      <p align="center"><sub><b>In progress</b><br>[note, e.g. "mid-cycle: bath + laser bed"]</sub></p>
+      <img src="gallery/alien/alien_in_progress.jpg" alt="In progress" width="100%">
+      <p align="center"><sub><b>After teal, magenta, pink, and yellow (gold) anodize dunks</b><br>[ready for ablating silver]</sub></p>
     </td>
   </tr>
 </table>
