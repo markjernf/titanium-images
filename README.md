@@ -1,3 +1,4 @@
+
 <!--
   DRAFT README — structure/layout focused. Replace bracketed [placeholder] text
   and swap in real images under /gallery/hero/. Sections marked (OPTIONAL) can
@@ -37,7 +38,7 @@ through repeated anodize → laser-ablate → re-anodize cycles on Grade-2 titan
       <p align="center"><sub><b>After teal, magenta, pink, and yellow (gold) anodize dunks</b><br>[ready for ablating silver]</sub></p>
     </td>
     <td width="25%">
-      <video src="https://github.com/user-attachments/assets/128f3069-75de-4e79-9a98-3c1ee7010e94" controls width="100%"></video>
+      <video src="https://github.com/user-attachments/assets/4446cb57-93af-415b-9d44-26bceccfb9a3" controls width="100%"></video>
       <p align="center"><sub><b>Video showing shimmer</b><br>[the effect is very cool and hard to show on the screen]</sub></p>
     </td>
   </tr>
