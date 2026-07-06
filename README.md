@@ -29,8 +29,8 @@ through repeated anodize → laser-ablate → re-anodize cycles on Grade-2 titan
       <p align="center"><sub><b>alien</b><br>[AI generated to fit Ti palette]</sub></p>
     </td>
     <td width="33%">
-      <img src="gallery/hero/hero-2-placeholder.jpg" alt="[Piece 2 name] — macro shot of halftone dots" width="100%">
-      <p align="center"><sub><b>[Piece 2 name] — macro detail</b><br>[note, e.g. "50µm dot halftone, close-up"]</sub></p>
+      <img src="gallery/alien/_index.PNG" alt="PNG ablation images for alien" width="100%">
+      <p align="center"><sub><b>[Derived from the original image by ti_mosaic_separator.py</b><br>[508 DPI preview]</sub></p>
     </td>
     <td width="33%">
       <img src="gallery/hero/hero-3-placeholder.jpg" alt="[Piece 3 name] — in-progress anodize bath" width="100%">
