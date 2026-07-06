@@ -4,6 +4,10 @@
   be cut if they end up redundant with docs/ pages.
 -->
 
+
+https://github.com/user-attachments/assets/128f3069-75de-4e79-9a98-3c1ee7010e94
+
+
 <div align="center">
 
 # [Project / Series Name]
@@ -38,7 +42,7 @@ through repeated anodize → laser-ablate → re-anodize cycles on Grade-2 titan
     </td>
     <td width="25%">
       <video controls="controls" style="max-width: 100%; max-height: 400px;">
-        <source src="https://raw.githubusercontent.com/markjernf/titanium-images/main/gallery/alien/alien.mp4" type="video/mp4">
+        <source src="https://github.com/user-attachments/assets/128f3069-75de-4e79-9a98-3c1ee7010e94" type="video/mp4">
       </video>     
       <p align="center"><sub><b>Video showing shimmer</b><br>[the effect is very cool and hard to record]</sub></p>
     </td>
