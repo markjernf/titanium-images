@@ -25,8 +25,8 @@ through repeated anodize → laser-ablate → re-anodize cycles on Grade-2 titan
 <table>
   <tr>
     <td width="33%">
-      <img src="gallery/hero/hero-1-placeholder.jpg" alt="[Piece 1 name] — finished piece" width="100%">
-      <p align="center"><sub><b>[Piece 1 name]</b><br>[one-line note, e.g. "9-color, dinosaur-against-sky"]</sub></p>
+      <img src="gallery/alien/alien.jpg" alt="alien — finished piece" width="100%">
+      <p align="center"><sub><b>alien</b><br>[AI generated to fit Ti palette]</sub></p>
     </td>
     <td width="33%">
       <img src="gallery/hero/hero-2-placeholder.jpg" alt="[Piece 2 name] — macro shot of halftone dots" width="100%">
