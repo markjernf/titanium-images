@@ -2,8 +2,10 @@
 """
 manage_gallery.py
 
-Add or replace a piece in the gallery/ folder, and regenerate the
-auto-generated gallery grid in the repo's README.md to match.
+Add or replace a piece in the gallery/ folder, and regenerate gallery/README.md
+so it shows every piece with its finished photo directly beside the full-sized
+index sheet -- the point being to make the layer-by-layer labor visible, not
+buried behind a link.
 
 RUN FROM INSIDE gallery/:
 
@@ -28,19 +30,20 @@ WHAT IT DOES, IN ORDER
    files behind.
 4. Moves the converted jpg and _index.png into that folder as
    <piece-name>.jpg and _index.png.
-5. Rewrites the block between the `GALLERY:START` / `GALLERY:END` markers
-   in ../README.md (configurable with --readme) with an image+caption grid
-   of every piece currently in gallery/, sorted by folder name. Everything
-   else in the README is left untouched. If the markers aren't found, a
-   new "## Gallery" section is appended at the end -- move it wherever you
-   like afterwards, the markers travel with it.
+5. Rewrites the block between the `GALLERY:START` / `GALLERY:END` markers in
+   gallery/README.md (configurable with --readme) with one section per piece:
+   a heading, an optional caption, and the finished photo side by side with
+   the full index sheet -- both sized to fill their half of the row, not
+   shrunk to a thumbnail. Anything outside the markers (e.g. a hand-written
+   intro) is left untouched. If gallery/README.md doesn't exist yet, or
+   exists without markers, a sensible default is created/appended.
 
 Per-piece caption: put an optional gallery/<piece-name>/caption.txt with a
-short line of text (e.g. "9-color, dinosaur against open sky") and it'll
-be used instead of the auto-titled folder name.
+short line of text (e.g. "9-color, dinosaur against open sky") and it'll be
+shown under that piece's heading.
 
 Safe to re-run. Re-adding the same piece replaces its contents; adding a
-new piece just adds another entry to the grid.
+new piece just adds another section.
 """
 
 from __future__ import annotations
@@ -132,13 +135,13 @@ def collect_pieces(gallery_dir: Path, skip_dirs=("hero", "failures")):
         image = images[0]
         index_sheet = d / "_index.png"
         caption_file = d / "caption.txt"
+        caption = None
         if caption_file.exists():
-            first_line = caption_file.read_text().strip().splitlines()
-            caption = first_line[0] if first_line else stem_to_title(d.name)
-        else:
-            caption = stem_to_title(d.name)
+            lines = caption_file.read_text().strip().splitlines()
+            caption = lines[0] if lines else None
         pieces.append({
             "name": d.name,
+            "title": stem_to_title(d.name),
             "image": image,
             "index_sheet": index_sheet if index_sheet.exists() else None,
             "caption": caption,
@@ -146,66 +149,77 @@ def collect_pieces(gallery_dir: Path, skip_dirs=("hero", "failures")):
     return pieces
 
 
-def build_gallery_block(pieces, readme_root: Path) -> str:
-    lines = [GALLERY_START, ""]
-
-    if not pieces:
-        lines.append("_Gallery is empty -- add a piece with `scripts/manage_gallery.py`._")
-        lines.append("")
-        lines.append(GALLERY_END)
-        return "\n".join(lines)
-
+def build_piece_section(piece: dict, gallery_dir: Path) -> str:
     def rel(p: Path) -> str:
         try:
-            return p.resolve().relative_to(readme_root.resolve()).as_posix()
+            return p.resolve().relative_to(gallery_dir.resolve()).as_posix()
         except ValueError:
             return p.as_posix()
 
+    lines = [f"### {piece['title']}", ""]
+    if piece["caption"]:
+        lines.append(f"*{piece['caption']}*")
+        lines.append("")
+
     lines.append("<table>")
     lines.append("  <tr>")
-    for i, piece in enumerate(pieces):
-        cell = [
-            '    <td width="33%" align="center">',
-            f'      <img src="{rel(piece["image"])}" alt="{piece["caption"]}" width="100%"><br>',
-            f'      <sub><b>{piece["caption"]}</b></sub>',
-        ]
-        if piece["index_sheet"] is not None:
-            cell.append(f'      <br><sub><a href="{rel(piece["index_sheet"])}">index sheet</a></sub>')
-        cell.append("    </td>")
-        lines.extend(cell)
-        is_last = i == len(pieces) - 1
-        if (i + 1) % 3 == 0 and not is_last:
-            lines.append("  </tr>")
-            lines.append("  <tr>")
+    lines.append('    <td width="50%" align="center">')
+    lines.append(f'      <img src="{rel(piece["image"])}" alt="{piece["title"]} -- finished piece" width="100%">')
+    lines.append("      <br><sub>Finished piece</sub>")
+    lines.append("    </td>")
+    if piece["index_sheet"] is not None:
+        lines.append('    <td width="50%" align="center">')
+        lines.append(f'      <img src="{rel(piece["index_sheet"])}" alt="{piece["title"]} -- index sheet" width="100%">')
+        lines.append("      <br><sub>Index sheet -- every anodized layer that went into this piece</sub>")
+        lines.append("    </td>")
+    else:
+        lines.append('    <td width="50%" align="center"><sub><i>(no index sheet on file for this piece)</i></sub></td>')
     lines.append("  </tr>")
     lines.append("</table>")
+    return "\n".join(lines)
+
+
+def build_gallery_block(pieces, gallery_dir: Path) -> str:
+    lines = [GALLERY_START, ""]
+    if not pieces:
+        lines.append("_Gallery is empty -- add a piece with `../scripts/manage_gallery.py`._")
+    else:
+        sections = [build_piece_section(p, gallery_dir) for p in pieces]
+        lines.append("\n\n---\n\n".join(sections))
     lines.append("")
     lines.append(GALLERY_END)
     return "\n".join(lines)
 
 
+DEFAULT_INTRO = (
+    "# Gallery\n\n"
+    "Every piece below is shown with its finished photo next to the index "
+    "sheet from that run -- the actual map of anodized layers that produced "
+    "it. Nothing here is printed or filtered onto the metal: each color is "
+    "its own anodize / laser-ablate / re-anodize cycle on titanium.\n"
+)
+
+
 def regenerate_readme(gallery_dir: Path, readme_path: Path) -> None:
-    if not readme_path.exists():
-        raise SystemExit(
-            f"README not found at {readme_path}.\n"
-            f"Pass --readme to point at it, or create it first."
-        )
-
     pieces = collect_pieces(gallery_dir)
-    block = build_gallery_block(pieces, readme_root=readme_path.resolve().parent)
+    block = build_gallery_block(pieces, gallery_dir=gallery_dir)
 
-    text = readme_path.read_text()
-    if GALLERY_START in text and GALLERY_END in text:
-        pre = text.split(GALLERY_START)[0]
-        post = text.split(GALLERY_END)[1]
-        new_text = pre + block + post
-        note = "Updated existing gallery block"
+    if not readme_path.exists():
+        new_text = DEFAULT_INTRO + "\n" + block + "\n"
+        note = "Created"
     else:
-        new_text = text.rstrip("\n") + "\n\n## Gallery\n\n" + block + "\n"
-        note = "No gallery markers found -- appended a new '## Gallery' section"
+        text = readme_path.read_text()
+        if GALLERY_START in text and GALLERY_END in text:
+            pre = text.split(GALLERY_START)[0]
+            post = text.split(GALLERY_END)[1]
+            new_text = pre + block + post
+            note = "Updated existing gallery block in"
+        else:
+            new_text = text.rstrip("\n") + "\n\n" + block + "\n"
+            note = "No gallery markers found -- appended a new gallery block to"
 
     readme_path.write_text(new_text)
-    print(f"{note} in {readme_path} ({len(pieces)} piece(s)).")
+    print(f"{note} {readme_path} ({len(pieces)} piece(s)).")
 
 
 # --------------------------------------------------------------------------
@@ -217,8 +231,8 @@ def main():
                                   formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("image", type=Path, help="finished photo to add/replace in the gallery")
     ap.add_argument("--quality", type=int, default=95, help="JPEG quality if conversion is needed (default 95)")
-    ap.add_argument("--readme", type=Path, default=Path("../README.md"),
-                     help="path to the README.md to update (default: ../README.md)")
+    ap.add_argument("--readme", type=Path, default=Path("README.md"),
+                     help="path to the gallery README.md to update (default: ./README.md, i.e. gallery/README.md)")
     args = ap.parse_args()
 
     gallery_dir = Path(".").resolve()
