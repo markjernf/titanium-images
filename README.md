@@ -26,7 +26,7 @@ through repeated anodize → laser-ablate → re-anodize cycles on Grade-2 titan
   <tr>
     <td width="33%">
       <img src="gallery/alien/alien.jpg" alt="alien — finished piece" width="100%">
-      <p align="center"><sub><b>alien finished product</b><br>[AI generated to fit Ti palette]</sub></p>
+      <p align="center"><sub><b>Alien scene finished piece</b><br>[AI generated to fit Ti palette]</sub></p>
     </td>
     <td width="33%">
       <img src="gallery/alien/_index.png" alt="PNG ablation images for alien" width="100%">
