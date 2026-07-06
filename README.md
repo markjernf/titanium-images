@@ -44,7 +44,7 @@ through repeated anodize → laser-ablate → re-anodize cycles on Grade-2 titan
   </tr>
 </table>
 
-        https://github.com/user-attachments/assets/128f3069-75de-4e79-9a98-3c1ee7010e94
+https://github.com/user-attachments/assets/128f3069-75de-4e79-9a98-3c1ee7010e94
 
 
 <div align="center"><i>More in the <a href="gallery/README.md">full gallery</a> — including the ones that didn't work.</i></div>
