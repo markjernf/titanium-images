@@ -45,7 +45,7 @@ through repeated anodize → laser-ablate → re-anodize cycles on Grade-2 titan
 </table>
 <video src="gallery/alien/alien.MOV" controls="controls" style="max-width: 100%; max-height: 400px;" alt="Video showing shimmer">      
       <p align="center"><sub><b>Video showing shimmer</b><br>[the effect is very cool and hard to record]</sub></p>
-<div align="center"><i>More in the <a href="gallery/README.md">full gallery</a> — including the ones that didn't work.</i></div>
+<div align="center"><i>More in the <a href="gallery/README.md">full gallery</a> — including the ones that didn't work.</i>
 
 ---
 
