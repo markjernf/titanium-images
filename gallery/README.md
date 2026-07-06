@@ -21,7 +21,26 @@ Every piece below is shown with its finished photo next to the index sheet from 
 
 ---
 
+### Dragon
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="dragon/dragon.jpg" alt="Dragon -- finished piece" width="100%">
+      <br><sub>Finished piece</sub>
+    </td>
+    <td width="50%" align="center">
+      <img src="dragon/_index.png" alt="Dragon -- index sheet" width="100%">
+      <br><sub>Index sheet -- every anodized layer that went into this piece</sub>
+    </td>
+  </tr>
+</table>
+
+---
+
 ### Woman And Dogs
+
+*Anodized color photo.*
 
 <table>
   <tr>
