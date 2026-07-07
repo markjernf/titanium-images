@@ -85,9 +85,9 @@ doing this or if you start doing this, I'd love to hear from you!
 * [Matthew C. Martin](https://www.anodizedart.com/about) is making gorgeous art by "painting" the TiO2: [gallery](https://www.anodizedart.com/gallery).  Check out his [video](https://www.anodizedart.com/).    
 * Povilas in Lithuania has the closest I found to my work.  He is [using a 60W fiber laser to anodize dots directly onto titanium](https://forum.lightburnsoftware.com/t/color-raster-images-on-metal/188901) with super cool results: [gallery](https://nothing.lt/photos/public/gallery/tqAgGPhTv77AJq2S73U2EjOD).  
 
-As far as I've been able to determine, combining
-**full color image decomposition into per-voltage ablation masks with repeated
-anodize/ablate cycling** to get photorealistic results at extremely high resolution is
+As far as I've been able to determine, **combining
+full color image decomposition into per-voltage ablation masks with repeated
+anodize/ablate cycling to get photorealistic results at extremely high resolution** is
 undocumented elsewhere. If you know of prior work I've missed, please open a
 [discussion](../../discussions) — genuinely want to know.
 
