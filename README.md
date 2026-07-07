@@ -7,7 +7,7 @@
 
 <div align="center">
 
-# [Project / Series Name]
+# Making images with TiO2
 ### Photographic mosaics, anodized onto titanium — one color at a time
 Repeated anodize → laser-ablate → re-anodize cycles on titanium sheets can produce full color 508 DPI images.  The process involves image processing, metal preparation, and repeated "dunks" in a carefully-controlled trisodium phosphate solution with a direct current voltage between 15 and 105 volts.
 
