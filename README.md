@@ -9,7 +9,7 @@
 
 # Making images with TiO2
 ### Photographic mosaics, anodized onto titanium — one color at a time
-Repeated anodize → laser-ablate → re-anodize cycles on titanium sheets can produce full color 508 DPI images.  The process involves image processing, metal preparation, and repeated "dunks" in a carefully-controlled trisodium phosphate solution with a direct current voltage between 15 and 105 volts.
+Repeated anodize → laser-ablate → re-anodize cycles on titanium sheets can produce full color 508 DPI images.  The process involves image processing, metal preparation, and repeated "dunks" in a carefully-controlled trisodium phosphate (TSP) solution with a DC voltage between 15 and 105 volts.
 
 [![Etsy](https://img.shields.io/badge/shop-Etsy-orange)](#) 
 [![License: MIT](https://img.shields.io/badge/code-MIT-blue)](#license) 
@@ -41,11 +41,11 @@ Repeated anodize → laser-ablate → re-anodize cycles on titanium sheets can p
       <video src="https://github.com/user-attachments/assets/4446cb57-93af-415b-9d44-26bceccfb9a3" controls width="100%"></video>  
     </td>
     <td width="33%">
-      <b><= Video to show the cool way the anodized pieces shimmer.</b><p> It's very hard to record and show this on the screen (looks better in real life), and the shimmer is one of the most appealing aspects of the technique.The way anodized titanium makes the appearance of colors is through interference of different wavelengths of light refracting and reflecting through the TiO2 layer created by the anodizing.  The anodizing voltage controls the thickness of the layer which in turns controls perceived color.  The shimmery effect and conjuring color out of voltage in a solution (feels like alchemy) are a lot why this process is so engaging for me.  Software, laser, chemical, and the physics of light converge to make magic.</p>
+      <b><= Video to show the cool way the anodized pieces shimmer.</b><p> It's very hard to record and show this on the screen (looks better in real life), and the shimmer is one of the most appealing aspects of the technique. The way anodized titanium makes the appearance of colors is through interference of different wavelengths of light refracting and reflecting through the TiO2 layer created by the anodizing.  The anodizing voltage controls the thickness of the layer which in turns controls perceived color.  The shimmery effect and conjuring color out of voltage in a solution (feels like alchemy) are a lot why this process is so engaging for me.  Software, laser, chemistry, and the physics of light converge to make magic.</p>
     </td>
     <td width="33%">
       <img width="100%" alt="anodizing_rig" src="https://github.com/user-attachments/assets/b4ab74c2-aefb-4c07-ba92-6ec3ae92cb7a">
-      <p align="center"><sub><b>My anodizing bath and rig, power supply, cooling and circulation systems</b><br>There is also laser with forced ventilation, a computer, and a metal prep (wet sanding) station (more details in the wiki).</sub></p>
+      <p align="center"><sub><b>My anodizing bath and rig, power supply, cooling and circulation systems</b><br>There is also laser with proper ventilation, a computer, and a metal prep (wet sanding) station (more details in the wiki).</sub></p>
     </td>
   </tr>
 </table>
@@ -54,12 +54,12 @@ Repeated anodize → laser-ablate → re-anodize cycles on titanium sheets can p
 
 ## What this is
 
-This is my effort to share what I've learned and invented about making high resolution and vibrant color images by anodizing titanium.
+This repo is my effort to share what I've learned and invented about making high resolution and vibrant color images by anodizing titanium.
 I am an engineer, woodworker, and maker who now crafts full-color, photorealistic images on titanium sheets by anodizing,
-laser-ablating a mask of one color, re-anodizing at that color's lower voltage, and
+laser-ablating a mask of one color, re-anodizing at that color's voltage, and
 repeating — up to nine times per piece. A Python script
-(`ti_mosaic_separator.py`) turns a source photo into a stack of one-bit masks that when ablated and anodized in the proper order produce a color mosaic, blending the colors into a color image.  These pieces may look like they were produced by a machine, but they are genuinely handmade.  Each requires meticulous surface preparation, multiple laser passes, and multiple separate trips to the TSP
-electrolyte bath in a sophisticated hand-built anodizing rig. It's a wonderful blend of digital preparation and analog rendering and depending on how many colors are involved can take several hours to complete.   
+(`ti_mosaic_separator.py`) turns a source photo into a stack of one-bit masks that when ablated and anodized in the proper order produce a color mosaic, dithering and blending the colors into a color image with excellent tonal depth.  These pieces may look like they were produced by a machine, but they are genuinely handmade.  Each requires meticulous surface preparation, multiple laser passes, and multiple separate trips to the TSP
+electrolyte bath in a sophisticated hand-built anodizing rig. It's a wonderful blend of digital preparation and analog rendering and depending on how many colors are involved can take several hours to complete one piece.   
 
 ## How it works (short version)
 1. Decompose the source image into per-color masks (script does this).
@@ -72,10 +72,14 @@ For lots more details, please see the Wiki.
 
 ## Why this is different
 
-[Short prior-art paragraph — you found ~4 other multicolor-anodizing approaches.
-Name them briefly, then state your specific claim precisely rather than "first
-ever." Example seed:]
+I have searched for other doing this sort of work but haven't found anyone doing exactly my combination
+of anodizing and high resolution laser ablation to generate full color images.  If others are 
+doing this or if you start doing this, I'd love to hear from you!
 
+## What I did find
+
+* Lots of people are anodizing jewelry and other objects.
+* Others are doing multiple color anodizing on pens and knife blanks, using the "anodize/ablate/anodize" strategy. https://www.wayofknife.com/the-s-house-ano/
 Other multicolor titanium anodizing approaches I've found: electrified-solution
 pen-plotting, dabbing solution by hand, mask-then-dunk-then-remask, and
 direct laser coloring. As far as I've been able to determine, combining
