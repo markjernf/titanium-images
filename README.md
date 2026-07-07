@@ -46,7 +46,7 @@ Repeated anodize → laser-ablate → re-anodize cycles on titanium sheets can p
     </td>
     <td width="33%">
       <img width="100%" alt="anodizing_rig" src="https://github.com/user-attachments/assets/b4ab74c2-aefb-4c07-ba92-6ec3ae92cb7a">
-      <p align="center"><sub><b>My anodizing bath and rig, power supply, cooling and circulation systems</b><br>There is also laser with forced ventilation and a computer.</sub></p>
+      <p align="center"><sub><b>My anodizing bath and rig, power supply, cooling and circulation systems</b><br>There is also laser with forced ventilation, a computer, and a metal prep (wet sanding) station (more details in the wiki).</sub></p>
     </td>
   </tr>
 </table>
