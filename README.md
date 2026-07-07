@@ -72,14 +72,21 @@ For lots more details, please see the Wiki.
 
 ## Why this is different
 
-I have searched for other doing this sort of work but haven't found anyone doing exactly my combination
-of anodizing and high resolution laser ablation to generate full color images.  If others are 
+I have searched for others doing this sort of work but haven't found anyone doing exactly my combination
+of anodizing and high resolution laser ablation to generate full color images.  The "dithering mosaic" separation of images into masks to ablate for different anodized colors to get a full-color image result is what's different about what I'm doing.    If others are 
 doing this or if you start doing this, I'd love to hear from you!
 
 ## What I did find
 
 * Lots of people are anodizing jewelry and other objects.
 * Others are doing multiple color anodizing on pens and knife blanks, using the "anodize/ablate/anodize" strategy. [Example by wayofknife.com](https://www.wayofknife.com/the-s-house-ano/)
+* [Here's a site](https://cycleschinook.com/anodizing/) advertising beautiful (and extremely sophisticated) anodizing services for bicycles by cycleschinook.com.
+* Jake Wright at [Titan Prints](https://www.tiprints.com/home) developed an amazing image anodizing process using an x-y "drawing with fluid" approach (check out his [video](https://www.youtube.com/watch?v=kHKCwzJl5gQ) and [shop](https://www.tiprints.com/shop).  There are [more videos](https://www.instagram.com/p/DGZ5C79OKwX/) on instagram.
+* [Matthew C. Martin](https://www.anodizedart.com/about) is making gorgeous art by "painting" the TiO2: [gallery](https://www.anodizedart.com/gallery).  Check out his [video](https://www.anodizedart.com/).    
+* Povilas in Lithuania has the closest I found to my work.  He is [using a 60W fiber laser to anodize dots directly onto titanium](https://forum.lightburnsoftware.com/t/color-raster-images-on-metal/188901) with super cool results: [gallery](https://nothing.lt/photos/public/gallery/tqAgGPhTv77AJq2S73U2EjOD).  
+
+
+
 Other multicolor titanium anodizing approaches I've found: electrified-solution
 pen-plotting, dabbing solution by hand, mask-then-dunk-then-remask, and
 direct laser coloring. As far as I've been able to determine, combining
