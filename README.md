@@ -1,4 +1,3 @@
-<img width="2358" height="3470" alt="anodizing_rig" src="https://github.com/user-attachments/assets/b4ab74c2-aefb-4c07-ba92-6ec3ae92cb7a" />
 
 <!--
   DRAFT README — structure/layout focused. Replace bracketed [placeholder] text
