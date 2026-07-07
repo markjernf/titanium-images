@@ -1,3 +1,4 @@
+<img width="2358" height="3470" alt="anodizing_rig" src="https://github.com/user-attachments/assets/b4ab74c2-aefb-4c07-ba92-6ec3ae92cb7a" />
 
 <!--
   DRAFT README — structure/layout focused. Replace bracketed [placeholder] text
@@ -44,8 +45,8 @@ Repeated anodize → laser-ablate → re-anodize cycles on titanium sheets can p
       <b><= Video to show the cool way the anodized pieces shimmer.</b><p> It's very hard to record and show this on the screen (looks better in real life), and the shimmer is one of the most appealing aspects of the technique.The way anodized titanium makes the appearance of colors is through interference of different wavelengths of light refracting and reflecting through the TiO2 layer created by the anodizing.  The anodizing voltage controls the thickness of the layer which in turns controls perceived color.  The shimmery effect and conjuring color out of voltage in a solution (feels like alchemy) are a lot why this process is so engaging for me.  Software, laser, chemical, and the physics of light converge to make magic.</p>
     </td>
     <td width="33%">
-      <img src="gallery/woman_and_dogs/woman_and_dogs.jpg" alt="photo - finished piece" width="100%">
-      <p align="center"><sub><b>Finished piece (actual size 100 mm x 100 mm)</b><br>[Photo with colors adjusted by AI to fit colors available anodizing Titanium, 508 DPI]</sub></p>
+      <img width="100%" alt="anodizing_rig" src="https://github.com/user-attachments/assets/b4ab74c2-aefb-4c07-ba92-6ec3ae92cb7a">
+      <p align="center"><sub><b>My anodizing bath and rig, power supply, cooling and circulation systems</b><br>There is also laser with forced ventilation and a computer.</sub></p>
     </td>
   </tr>
 </table>
@@ -54,7 +55,7 @@ Repeated anodize → laser-ablate → re-anodize cycles on titanium sheets can p
 
 ## What this is
 
-I am an engineer and woodworker who now makes full-color, photorealistic images on titanium sheets by anodizing,
+I am an engineer, woodworker, and maker who now crafts full-color, photorealistic images on titanium sheets by anodizing,
 laser-ablating a mask of one color, re-anodizing at a lower voltage, and
 repeating — up to nine times per piece. A Python script
 (`ti_mosaic_separator.py`) turns a source photo into a stack of 1-bit masks that when ablated and anodized in the proper order produce a color mosaic blending the colors into a color image.  These pieces may look like they were produced by a machine, but they are genuinely handmade.  Each requires meticulous surface preparation, multiple laser passes, and multiple separate trips to the TSP
