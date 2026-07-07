@@ -54,10 +54,11 @@ Repeated anodize → laser-ablate → re-anodize cycles on titanium sheets can p
 
 ## What this is
 
+This is my effort to share what I've learned and invented about making high resolution and vibrant color images by anodizing titanium.
 I am an engineer, woodworker, and maker who now crafts full-color, photorealistic images on titanium sheets by anodizing,
-laser-ablating a mask of one color, re-anodizing at a lower voltage, and
+laser-ablating a mask of one color, re-anodizing at that color's lower voltage, and
 repeating — up to nine times per piece. A Python script
-(`ti_mosaic_separator.py`) turns a source photo into a stack of 1-bit masks that when ablated and anodized in the proper order produce a color mosaic blending the colors into a color image.  These pieces may look like they were produced by a machine, but they are genuinely handmade.  Each requires meticulous surface preparation, multiple laser passes, and multiple separate trips to the TSP
+(`ti_mosaic_separator.py`) turns a source photo into a stack of one-bit masks that when ablated and anodized in the proper order produce a color mosaic, blending the colors into a color image.  These pieces may look like they were produced by a machine, but they are genuinely handmade.  Each requires meticulous surface preparation, multiple laser passes, and multiple separate trips to the TSP
 electrolyte bath in a sophisticated hand-built anodizing rig. It's a wonderful blend of digital preparation and analog rendering and depending on how many colors are involved can take several hours to complete.   
 
 ## How it works (short version)
