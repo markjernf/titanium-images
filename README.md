@@ -79,7 +79,7 @@ doing this or if you start doing this, I'd love to hear from you!
 ## What I did find
 
 * Lots of people are anodizing jewelry and other objects.
-* Others are doing multiple color anodizing on pens and knife blanks, using the "anodize/ablate/anodize" strategy. https://www.wayofknife.com/the-s-house-ano/
+* Others are doing multiple color anodizing on pens and knife blanks, using the "anodize/ablate/anodize" strategy. [Example by wayofknife.com](https://www.wayofknife.com/the-s-house-ano/)
 Other multicolor titanium anodizing approaches I've found: electrified-solution
 pen-plotting, dabbing solution by hand, mask-then-dunk-then-remask, and
 direct laser coloring. As far as I've been able to determine, combining
