@@ -81,19 +81,14 @@ doing this or if you start doing this, I'd love to hear from you!
 * Lots of people are anodizing jewelry and other objects.
 * Others are doing multiple color anodizing on pens and knife blanks, using the "anodize/ablate/anodize" strategy. [Example by wayofknife.com](https://www.wayofknife.com/the-s-house-ano/)
 * [Here's a site](https://cycleschinook.com/anodizing/) advertising beautiful (and extremely sophisticated) anodizing services for bicycles by cycleschinook.com.
-* Jake Wright at [Titan Prints](https://www.tiprints.com/home) developed an amazing image anodizing process using an x-y "drawing with fluid" approach (check out his [video](https://www.youtube.com/watch?v=kHKCwzJl5gQ) and [shop](https://www.tiprints.com/shop).  There are [more videos](https://www.instagram.com/p/DGZ5C79OKwX/) on instagram.
+* Jake Wright at [Titan Prints](https://www.tiprints.com/home) developed an amazing image anodizing process using an x-y "drawing with fluid" approach (check out his [video](https://www.youtube.com/watch?v=kHKCwzJl5gQ) and [shop](https://www.tiprints.com/shop)).  He posted [more videos](https://www.instagram.com/p/DGZ5C79OKwX/) on instagram.
 * [Matthew C. Martin](https://www.anodizedart.com/about) is making gorgeous art by "painting" the TiO2: [gallery](https://www.anodizedart.com/gallery).  Check out his [video](https://www.anodizedart.com/).    
 * Povilas in Lithuania has the closest I found to my work.  He is [using a 60W fiber laser to anodize dots directly onto titanium](https://forum.lightburnsoftware.com/t/color-raster-images-on-metal/188901) with super cool results: [gallery](https://nothing.lt/photos/public/gallery/tqAgGPhTv77AJq2S73U2EjOD).  
 
-
-
-Other multicolor titanium anodizing approaches I've found: electrified-solution
-pen-plotting, dabbing solution by hand, mask-then-dunk-then-remask, and
-direct laser coloring. As far as I've been able to determine, combining
-**full RGB image decomposition into per-voltage ablation masks with repeated
-anodize/ablate cycling** to get photorealistic results at 508 DPI is
-undocumented elsewhere. See [`docs/prior-art.md`](docs/prior-art.md) for details
-and if you know of prior work I've missed, please open a
+As far as I've been able to determine, combining
+**full color image decomposition into per-voltage ablation masks with repeated
+anodize/ablate cycling** to get photorealistic results at extremely high resolution is
+undocumented elsewhere. If you know of prior work I've missed, please open a
 [discussion](../../discussions) — genuinely want to know.
 
 ## The struggle (it's not as clean as it looks)
