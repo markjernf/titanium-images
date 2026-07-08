@@ -50,7 +50,8 @@ Repeated anodize → laser-ablate → re-anodize cycles on titanium sheets can p
   </tr>
 </table>
 
-### More examples in the [gallery](https://github.com/markjernf/titanium-images/blob/main/gallery/README.md).
+[See more examples in the gallery.](https://github.com/markjernf/titanium-images/blob/main/gallery/README.md)
+
 ---
 
 ## What this is
