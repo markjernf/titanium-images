@@ -91,40 +91,26 @@ anodize/ablate cycling to get photorealistic results at extremely high resolutio
 undocumented elsewhere. If you know of prior work I've missed, please open a
 [discussion](../../discussions) — genuinely want to know.
 
-## The struggle (it's not as clean as it looks)
+## The struggle (it's not as easy as it looks)
 
-[This section directly answers the "looks machine-made" concern — keep it
-honest and specific, not just "it was hard." Example seed:]
+These look precise because they *are* precise — but precise took months of
+experimentation, isolating and dialing one variable at a time, including:
 
-These look precise because they *are* precise — but precise took [months] of
-figuring out, one variable at a time: DPI/pixel-mapping bugs, a palette that
-looked right in preview and came out muddy on metal, shadow tuning that
-turned out to work backwards from instinct depending on the source image, and
-plenty of runs that just didn't work.
+* incomplete initial metal preparation
+* ablation settings too strong
+* ablation settings too weak
+* slightly bent corners of the sheet causing ablation to fail there
+* controlling bath temperature
+* proper dunk technique
+* masking the back of the sheet
+* DPI/pixel-mapping challenges with XCS re-dithering my PNG
+* separations thatlooked right in preview and came out muddy on metal
+* shadow tuning that turned out to work backwards from instinct
+* forgetting steps
+* not cleaning enough
+* leaky cooling system diluting the bath with icy tap water
+* sparks when I touched the sheet to a spot I shouldn't
 
-See [`docs/lessons-learned.md`](docs/lessons-learned.md) for the dated,
-warts-and-all version, and [`gallery/failures/`](gallery/failures/) for the
-proofs that didn't make it.
-
-## Repo structure
-
-```
-.
-├── ti_mosaic_separator.py     # the decomposition pipeline
-├── docs/
-│   ├── process.md             # physical steps: bath, laser, safety
-│   ├── pipeline.md            # how the script works, parameters
-│   ├── palette.md             # voltage/color table + how it was derived
-│   ├── prior-art.md           # other approaches + how this differs
-│   └── lessons-learned.md     # the journey, dated
-├── gallery/
-│   ├── index/                 # thumbnails of all images
-│   ├── <piece-name>/          # source, proof, masks, process photos, final
-│   └── failures/              # what didn't work, and why
-├── LICENSE                    # code license (MIT)
-├── LICENSE-ART.md             # separate license for images/art
-└── CONTRIBUTING.md
-```
 
 ## Try it yourself
 
