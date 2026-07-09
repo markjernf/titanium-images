@@ -1,10 +1,4 @@
 
-<!--
-  DRAFT README — structure/layout focused. Replace bracketed [placeholder] text
-  and swap in real images under /gallery/hero/. Sections marked (OPTIONAL) can
-  be cut if they end up redundant with docs/ pages.
--->
-
 <div align="center">
 
 # Making images with TiO2
@@ -24,11 +18,11 @@ Repeated anodize → laser-ablate → re-anodize cycles on titanium sheets can p
 <table>
   <tr>
     <td width="33%">
-      <img src="gallery/alien/alien.jpg" alt="alien — finished piece" width="100%">
+      <img width="100%" alt="IMG_2724-EDIT" src="https://github.com/user-attachments/assets/43f3a992-b162-465e-954a-1ef35c5f6217" />
       <p align="center"><sub><b>Finished piece (actual size 100 mm x 100 mm)</b><br>[AI generated to fit Ti palette, 508 DPI]</sub></p>
     </td>
     <td width="33%">
-      <img src="gallery/alien/_index.png" alt="PNG ablation images for alien" width="100%">
+      <img width="100%" alt="_index" src="https://github.com/user-attachments/assets/e2185135-a4be-42bb-b727-ca0f8b68edbc" />
       <p align="center"><sub><b>Derived from the original image by ti_mosaic_separator.py</b><br>[508 DPI preview]</sub></p>
     </td>
     <td width="33%">
