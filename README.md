@@ -69,7 +69,7 @@ For lots more details, please see the Wiki.
 ## Why this is different
 
 I have searched for others doing this sort of work but haven't found anyone doing exactly my combination
-of anodizing and high resolution laser ablation to generate full color images.  The "dithering mosaic" separation of images into masks to ablate for different anodized colors to get a full-color image result is what's different about what I'm doing.    If others are 
+of anodizing and high resolution laser ablation to generate full color images.  The "dithered mosaic" separation of images into masks to ablate for different anodized colors to get a full-color image result is what's different about what I'm doing.    If others are 
 doing this or if you start doing this, I'd love to hear from you!
 
 ## What I did find
