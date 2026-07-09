@@ -18,7 +18,7 @@ Repeated anodize → laser-ablate → re-anodize cycles on titanium sheets can p
 <table>
   <tr>
     <td width="33%">
-      <img width="100%" alt="IMG_2724-EDIT" src="https://github.com/user-attachments/assets/43f3a992-b162-465e-954a-1ef35c5f6217" />
+      <img width="100%" alt="IMG_2751-EDIT" src="https://github.com/user-attachments/assets/ec2e26eb-4946-4a15-b197-f992f13d1c4f" />
       <p align="center"><sub><b>Finished piece (actual size 100 mm x 100 mm)</b><br>[AI generated to fit Ti palette, 508 DPI]</sub></p>
     </td>
     <td width="33%">
@@ -26,7 +26,7 @@ Repeated anodize → laser-ablate → re-anodize cycles on titanium sheets can p
       <p align="center"><sub><b>Derived from the original image by ti_mosaic_separator.py</b><br>[508 DPI preview]</sub></p>
     </td>
     <td width="33%">
-      <img src="gallery/alien/alien_in_progress.jpg" alt="In progress" width="100%">
+      <img width="100%" alt="IMG_2724-EDIT" src="https://github.com/user-attachments/assets/43f3a992-b162-465e-954a-1ef35c5f6217" />
       <p align="center"><sub><b>After teal, magenta, pink, and yellow (gold) anodize dunks</b><br>[ready for ablating silver]</sub></p>
     </td>
   </tr>
