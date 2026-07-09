@@ -55,7 +55,7 @@ I am an engineer, woodworker, and maker who now crafts full-color, photorealisti
 laser-ablating a mask of one color, re-anodizing at that color's voltage, and
 repeating — up to nine times per piece. A Python script
 (`ti_mosaic_separator.py`) turns a source photo into a stack of one-bit masks that when ablated and anodized in the proper order produce a color mosaic, dithering and blending the colors into a color image with excellent tonal depth.  These pieces may look like they were produced by a machine, but they are genuinely handmade.  Each requires meticulous surface preparation, multiple laser passes, and multiple separate trips to the TSP
-electrolyte bath in a sophisticated hand-built anodizing rig. It's a wonderful blend of digital preparation and analog rendering and depending on how many colors are involved can take several hours to complete one piece.   
+electrolyte bath in a sophisticated hand-built anodizing rig. It's a wonderful blend of digital preparation and analog rendering, and depending on how many colors are involved can take several hours to complete one piece.   
 
 ## How it works (short version)
 1. Decompose the source image into per-color masks (script does this).
