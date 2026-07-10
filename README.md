@@ -45,7 +45,7 @@ Repeated anodize → laser-ablate → re-anodize cycles on titanium sheets can p
 </table>
 
 ### See more examples in the [gallery.](https://github.com/markjernf/titanium-images/wiki/Gallery)
-### There is a lot more information in the [Wiki](https://github.com/markjernf/titanium-images/wiki).
+### There is a lot more information in the [wiki](https://github.com/markjernf/titanium-images/wiki).
 
 ---
 
@@ -65,7 +65,7 @@ electrolyte bath in a sophisticated hand-built anodizing rig. It's a wonderful b
 5. Repeat, descending in voltage, until all colors are laid down in a very precise 508 DPI mosaic.
 6. Final pass produces a photorealistic image built from three to nine discrete anodized colors.
 
-For lots more details, please see the [Wiki](https://github.com/markjernf/titanium-images/wiki).
+For lots more details, please see the [wiki](https://github.com/markjernf/titanium-images/wiki).
 
 ## Why this is different
 
