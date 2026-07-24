@@ -86,7 +86,7 @@ As far as I've been able to determine, **combining
 full color image decomposition into per-voltage ablation masks with repeated
 anodize/ablate cycling to get photorealistic results at extremely high resolution** is
 undocumented elsewhere. If you know of prior work I've missed, please open a
-[discussion](../../discussions) — genuinely want to know.
+[discussion](../../discussions) — I genuinely want to know.
 
 ## The struggle (it's not as easy as it looks)
 
