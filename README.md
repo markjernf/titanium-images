@@ -101,7 +101,7 @@ experimentation, isolating and dialing one variable at a time, including:
 * proper dunk technique
 * masking the back of the sheet
 * DPI/pixel-mapping challenges with XCS re-dithering my PNG
-* separations thatlooked right in preview and came out muddy on metal
+* separations that looked right in preview and came out muddy on metal
 * shadow tuning that turned out to work backwards from instinct
 * forgetting steps
 * not cleaning enough
