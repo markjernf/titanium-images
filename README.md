@@ -88,37 +88,26 @@ anodize/ablate cycling to get photorealistic results at extremely high resolutio
 undocumented elsewhere. If you know of prior work I've missed, please open a
 [discussion](../../discussions) — I genuinely want to know.
 
-## The struggle (it's not as easy as it looks)
+## The struggle (it's not as easy as it might look)
 
 These look precise because they *are* precise — but precise took months of
-experimentation, isolating and dialing one variable at a time, including:
+experimentation, isolating and dialing in one variable at a time, including:
 
-* incomplete initial metal preparation
-* ablation settings too strong
-* ablation settings too weak
+* learning how to navigate the many parameters in the separator script
+* finding a good balance of script settings in a vast solution space
+* initial metal preparation
+* ablation settings
 * slightly bent corners of the sheet causing ablation to fail there
-* controlling bath temperature
+* controlling bath temperature to within 0.1 degrees Celsius
 * proper dunk technique
 * masking the back of the sheet
 * DPI/pixel-mapping challenges with XCS re-dithering my PNG
 * separations that looked right in preview and came out muddy on metal
-* shadow tuning that turned out to work backwards from instinct
 * forgetting steps
 * not cleaning enough
 * leaky cooling system diluting the bath with icy tap water
 * sparks when I touched the sheet to a spot I shouldn't
 
-
-## Try it yourself
-
-[Minimal quickstart — keep short, link out for detail.]
-
-```bash
-python ti_mosaic_separator.py --input source.jpg --width-mm 94
-```
-
-Full usage, parameters, and palette calibration →
-[`docs/pipeline.md`](docs/pipeline.md)
 
 ## Collaborate / get in touch
 
