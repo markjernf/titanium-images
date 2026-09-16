@@ -81,7 +81,7 @@ doing this or if you start doing this, I'd love to hear from you!
 * Chris and Sandy Boothe make [anodized titanium wall art](https://www.multietch.com/titanium-wall-art) using printed circuit board mask and rubber cement mask and then anodizing with an electrified paint brushes and sponges wet with elecrolytic solution.  According to the site, they started this in 1999, so they are the earliest image anodizers I found.
 * Jake Wright at [Titan Prints](https://www.tiprints.com/home) developed an amazing image anodizing process using an x-y "drawing with fluid" approach (check out his [video](https://www.youtube.com/watch?v=kHKCwzJl5gQ) and [shop](https://www.tiprints.com/shop)).  He posted [more videos](https://www.instagram.com/p/DGZ5C79OKwX/) on instagram.
 * [Matthew C. Martin](https://www.anodizedart.com/about) is making gorgeous art by "painting" the TiO2: [gallery](https://www.anodizedart.com/gallery).  Check out his [video](https://www.anodizedart.com/).    
-* Povilas in Lithuania has the closest I found to my work.  He is [using a 60W fiber laser to anodize dots directly onto titanium](https://forum.lightburnsoftware.com/t/color-raster-images-on-metal/188901) with super cool results: [gallery](https://nothing.lt/photos/public/gallery/tqAgGPhTv77AJq2S73U2EjOD).  
+* Povilas in Lithuania has the closest I found to my work.  They are [using a 60W fiber laser to anodize dots directly onto titanium](https://forum.lightburnsoftware.com/t/color-raster-images-on-metal/188901) with super cool results: [gallery](https://nothing.lt/photos/public/gallery/tqAgGPhTv77AJq2S73U2EjOD).  
 
 As far as I've been able to determine, **combining
 full color image decomposition into per-voltage ablation masks with repeated
@@ -96,39 +96,25 @@ experimentation, isolating and dialing in one variable at a time, including:
 
 * learning how to navigate the many parameters in the separator script
 * finding a good balance of script settings in a vast solution space
-* initial metal preparation
-* ablation settings
-* slightly bent corners of the sheet causing ablation to fail there
-* controlling bath temperature to within 0.1 degrees Celsius
-* proper dunk technique
+* experimenting with initial metal preparation
+* many test sheets to calibrate ablation settings
+* learning that slightly bent corners of the sheet can cause ablation to fail there
+* finding that the xTool F1 galvo laser has less power and reflects more at the edges and especially in the corners
+* inventing an ice water circulation system to control bath temperature to within 0.1 degrees Celsius
+* refining proper dunk technique
 * masking the back of the sheet
-* DPI/pixel-mapping challenges with XCS re-dithering my PNG
-* separations that looked right in preview and came out muddy on metal
-* forgetting steps
-* not cleaning enough
-* leaky cooling system diluting the bath with icy tap water
-* sparks when I touched the sheet to a spot I shouldn't
-
+* surmounting DPI/pixel-mapping challenges with XCS re-dithering my PNG
+* troubleshooting separations that looked right in preview and came out muddy on metal (see "dot gain" below)
+* remembering all the steps in the process
+* learning what steps are needed to clean enough
+* fixing a leaky cooling system that was diluting the bath with icy tap water
+* avoiding sparks when I touched the sheet to a spot I shouldn't
+* refining the separation process using different engines
+* realizing that the dots are actually bigger than they should be and implementing a "dot gain" algorithm to predict and then compensate for that
+* implementing proper ventilation for laser fumes and acetone and isopropyl fumes
+* isolating the anodizing room from the dust of my wood shop next door in the basement
 
 ## Collaborate / get in touch
 
-[Invite line — you specifically want to find others doing this or adjacent
-work. Example seed:]
-
-If you're doing anything in this space — pen-plotter anodizing, mask-and-dunk,
-laser-direct color, or your own version of this — I'd love to hear about it
-and compare notes. Open a [discussion](../../discussions) or an issue.
-
-Finished pieces are available on [Etsy → \[shop link\]](#).
-[Optional: art-show / exhibit note, e.g. "Currently showing at \[venue\]."]
-
-## License
-
-- **Code** (`ti_mosaic_separator.py` and related scripts): [MIT](LICENSE)
-- **Images and art**: see [`LICENSE-ART.md`](LICENSE-ART.md) — [placeholder,
-  e.g. CC BY-NC 4.0; not for commercial reproduction]
-
----
-
-<div align="center"><sub>[optional footer, e.g. "Built and anodized by [name] — [location/workplace note if desired]"]</sub></div>
-
+If you're doing anything along these lines and are interested in collaborating or are interested in trying my process, please open a [discussion](../../discussions) or an issue.  I have well-refined python code that I will share if you're sincerely interested.  
+  
