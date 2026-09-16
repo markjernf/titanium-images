@@ -23,7 +23,7 @@ Repeated anodize → laser-ablate → re-anodize cycles on titanium sheets can p
     </td>
     <td width="33%">
       <img width="100%" alt="_index" src="https://github.com/user-attachments/assets/e2185135-a4be-42bb-b727-ca0f8b68edbc" />
-      <p align="center"><sub><b>Derived from the original image by ti_mosaic_separator.py</b><br>[508 DPI preview]</sub></p>
+      <p align="center"><sub><b>Derived from the original image by my python separator script</b><br>[508 DPI preview]</sub></p>
     </td>
     <td width="33%">
       <img width="100%" alt="IMG_2724-EDIT" src="https://github.com/user-attachments/assets/43f3a992-b162-465e-954a-1ef35c5f6217" />
