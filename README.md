@@ -66,7 +66,6 @@ electrolyte bath in a sophisticated hand-built anodizing rig. It's a wonderful b
 6. Final pass produces a photorealistic image built from three to nine discrete anodized colors.
 
 For lots more details, please see the [wiki](https://github.com/markjernf/titanium-images/wiki).
-
 ## Why this is different
 
 I have searched for others doing this sort of work but haven't found anyone doing exactly my combination
