@@ -18,13 +18,11 @@ Repeated anodize → laser-ablate → re-anodize cycles on titanium sheets can p
 <table>
   <tr>
     <td width="33%">
-      <img width="100%" alt="starfish on titanium" src="<img width="2097" height="1977" alt="IMG_3593-EDIT" src="https://github.com/user-attachments/assets/366484bf-0ef2-4b0e-ab86-ee94ab89aac6" />
-" />
+      <img width="100%" alt="starfish on titanium" <img width="3024" height="3111" alt="IMG_9338-EDIT" src="https://github.com/user-attachments/assets/b0db685c-1384-44ec-aed1-2fb091d2c66c" />
       <p align="center"><sub><b>Finished piece (actual size 100 mm x 100 mm)</b><br>[AI generated for my wife who loves starfish]</sub></p>
     </td>
     <td width="33%">
       <img width="100%" alt="_index" src="https://github.com/user-attachments/assets/366b2c14-5f10-4b2d-84f1-31162bb21080" />
-" />
       <p align="center"><sub><b>Caricature of a photo of my niece's dog</b><br>[508 DPI]</sub></p>
     </td>
     <td width="33%">
