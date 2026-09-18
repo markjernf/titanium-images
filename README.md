@@ -23,7 +23,7 @@ Repeated anodize → laser-ablate → re-anodize cycles on titanium sheets can p
       <p align="center"><sub><b>Finished piece (actual size 100 mm x 100 mm)</b><br>[AI generated for my wife who loves starfish]</sub></p>
     </td>
     <td width="33%">
-      <img width="100%" alt="_index" src="<img width="2097" height="1977" alt="IMG_3593-EDIT" src="https://github.com/user-attachments/assets/366b2c14-5f10-4b2d-84f1-31162bb21080" />
+      <img width="100%" alt="_index" src="https://github.com/user-attachments/assets/366b2c14-5f10-4b2d-84f1-31162bb21080" />
 " />
       <p align="center"><sub><b>Caricature of a photo of my niece's dog</b><br>[508 DPI]</sub></p>
     </td>
