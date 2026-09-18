@@ -18,8 +18,23 @@ Repeated anodize → laser-ablate → re-anodize cycles on titanium sheets can p
 <table>
   <tr>
     <td width="33%">
+      <img width="100%" alt="starfish on titanium" src="<img width="2097" height="1977" alt="IMG_3593-EDIT" src="https://github.com/user-attachments/assets/366484bf-0ef2-4b0e-ab86-ee94ab89aac6" />
+" />
+      <p align="center"><sub><b>Finished piece (actual size 100 mm x 100 mm)</b><br>[AI generated for my wife who loves starfish]</sub></p>
+    </td>
+    <td width="33%">
+      <img width="100%" alt="_index" src="<img width="2097" height="1977" alt="IMG_3593-EDIT" src="https://github.com/user-attachments/assets/366b2c14-5f10-4b2d-84f1-31162bb21080" />
+" />
+      <p align="center"><sub><b>Caricature of a photo of my niece's dog</b><br>[508 DPI]</sub></p>
+    </td>
+    <td width="33%">
+      <img width="100%" alt="IMG_2724-EDIT" src="https://github.com/user-attachments/assets/43f3a992-b162-465e-954a-1ef35c5f6217" />
+      <p align="center"><sub><b>After teal, magenta, pink, and yellow (gold) anodize dunks</b><br>[ready for ablating silver]</sub></p>
+    </td>
+  </tr>  <tr>
+    <td width="33%">
       <img width="100%" alt="IMG_2751-EDIT" src="https://github.com/user-attachments/assets/ec2e26eb-4946-4a15-b197-f992f13d1c4f" />
-      <p align="center"><sub><b>Finished piece (actual size 100 mm x 100 mm)</b><br>[AI generated to fit Ti palette, 508 DPI]</sub></p>
+      <p align="center"><sub><b>Finished piece (actual size 100 mm x 100 mm)</b><br>[AI generated to fit Ti palette]</sub></p>
     </td>
     <td width="33%">
       <img width="100%" alt="_index" src="https://github.com/user-attachments/assets/e2185135-a4be-42bb-b727-ca0f8b68edbc" />
