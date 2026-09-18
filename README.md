@@ -22,12 +22,12 @@ Repeated anodize → laser-ablate → re-anodize cycles on titanium sheets can p
       <p align="center"><sub><b>Finished piece (actual size 100 mm x 100 mm)</b><br>[AI generated for my wife who loves starfish]</sub></p>
     </td>
     <td width="33%">
-      <img width="100%" alt="_index" src="https://github.com/user-attachments/assets/366b2c14-5f10-4b2d-84f1-31162bb21080" />
+      <img width="100%" alt="dog" src="https://github.com/user-attachments/assets/366b2c14-5f10-4b2d-84f1-31162bb21080" />
       <p align="center"><sub><b>Caricature of a photo of my niece's dog</b><br>[508 DPI]</sub></p>
     </td>
     <td width="33%">
-      <img width="100%" alt="IMG_2724-EDIT" src="https://github.com/user-attachments/assets/43f3a992-b162-465e-954a-1ef35c5f6217" />
-      <p align="center"><sub><b>After teal, magenta, pink, and yellow (gold) anodize dunks</b><br>[ready for ablating silver]</sub></p>
+      <img width="100%" alt="snake in jungle" <img width="2218" height="2009" alt="IMG_3227-EDIT" src="https://github.com/user-attachments/assets/eda37015-8a38-4ee2-b6a9-6577385f541c" />
+      <p align="center"><sub><b>AI generated.</p>
     </td>
   </tr>  <tr>
     <td width="33%">
